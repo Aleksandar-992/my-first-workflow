@@ -2,7 +2,7 @@ name: MY First Workflow
 
 on:
       push:
-        branches:
+        branch:
           - main
           workflow_dispatch:
 

@@ -19,5 +19,5 @@ jobs:
           tree
 
       - name: Print Hello World
-        run: echo "Hello World! :rocket:"
-        run: echo " Love this feature! :medal_sports:"
+        run: echo "Hello World! :rocket:" >> $GITHUB_STEP_SUMMARY
+        run: echo " Love this feature! :medal_sports:" >> $GITHUB_STEP_SUMMARY

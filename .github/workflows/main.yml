@@ -19,4 +19,5 @@ jobs:
           tree
 
       - name: Print Hello World
-        run: echo "Hello World!"
+        run: echo "Hello World! :rocket: "
+        run: echo " Love this feature! :medal_sports:"

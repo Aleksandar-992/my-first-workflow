@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Echo Job 1
-        run: echo "Job 1: ${{ github.repository }}"
+        run: echo "Job 1: ${{ github.repository }}" 
 
   job_2:
     runs-on: ubuntu-latest
